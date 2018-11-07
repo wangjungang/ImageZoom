@@ -7,7 +7,8 @@
 //
 
 #import "ViewController.h"
-#import "ImageZoom.h"
+//#import "ImageZoom.h"
+#import "ImageZoom/ImageZoom.h"
 
 #define SCREEN_WIDTH [UIScreen mainScreen].bounds.size.width
 #define SCREEN_HEIGHT [UIScreen mainScreen].bounds.size.height
@@ -49,7 +50,6 @@
 -(void)imglongTapClick:(UILongPressGestureRecognizer*)gesture
 
 {
-    
     if(gesture.state==UIGestureRecognizerStateBegan)
         
     {
